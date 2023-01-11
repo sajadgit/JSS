@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head>
+        <title> JS change in body section </title>    
+ 
+        
+    </head>
+ 
+    <body>
+	<h2>Example of font tag</h2>  
+ <p>This is normal text without any font styling</p>  
+  <p>  
+    <font color="blue">Text with normal size and default face</font>  
+  </p>  
+  <p>  
+    <font size="5" color="green">Text with Increased size and default face</font>  
+  </p>  
+  <p>  
+    <font color="red" face="cursive">Text with Changed face</font>  
+  </p>  
+        
+        <h1> JS in Body </h1>
+        
+        <p id="p1"> A paragraph </p>
+        
+        <button type="button" onclick="myfn()"> TRY IT </button>
+        
+            <script>
+ 
+                function myfn()
+                {
+                    document.getElementById("p1").innerHTML = "Paragraph changed!..."+"<br>"+"Hi there.";
+                                        
+                }
+ 
+            </script>
+        
+        
+    </body>
+</html>
